@@ -1,0 +1,38 @@
+# robots.txt — Celia Decorações
+User-agent: *
+Allow: /
+
+# Bloqueia indexação de diretórios técnicos/administrativos, se existirem
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /*.json$
+
+Sitemap: https://celiadecoracoes.com.br/sitemap.xml
+
+
+
+User-agent: *
+Allow: /
+
+Sitemap: https://celiadecoracoes.com.br/sitemap.xml
+
+
+
+
+
+User-agent: *
+Allow: /
+
+# Bloqueia áreas administrativas ou de sistema, se existirem
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+Sitemap: https://www.celiadecoracoes.com.br/sitemap.xml
+
+
+
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.celiadecoracoes.com.br/sitemap.xml
